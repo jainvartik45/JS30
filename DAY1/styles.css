@@ -1,0 +1,36 @@
+body {
+    background-image: url("back2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.Container{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    gap: 4px;
+}
+
+.box{
+    height: 50px;
+    width: 70px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    
+
+}
+
+.box :hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+.pp{
+    margin: 17px;
+}
