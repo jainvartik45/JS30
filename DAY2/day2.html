@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./day2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="input">
+        <label>Blur : </label><br>
+        <input type="range" id="blur" name="blur" value="1" min="0" max="10" step="1" oninput="functionBlur()"/><br>
+        <label>Spacing : </label><br>
+        <input type="range" id="spacing" name="spacing" value="2" min="0" max="50" step="2" oninput="functionSpace()"/><br>
+        <label>Base Color : </label><br>
+        <input type="color" id="bscolor" name="bscolor" value="black" oninput="functionColor()"/><br>
+
+    </div>
+    <div id="output">
+        <img id="img1" src="./back.jpeg"></img>
+    </div>
+    <script src="./day2.js"></script>
+</body>
+</html>
