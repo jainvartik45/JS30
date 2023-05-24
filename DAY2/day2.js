@@ -1,9 +1,9 @@
 function functionBlur(){
     var inputvalue = document.getElementById("blur").value;
     console.log(inputvalue)
-    const blurr = blur({inputvalue});
+    
     const myElement = document.getElementById("img1");
-    myElement.style.filter = `${blurr}`
+    myElement.style.filter = `blur(${inputvalue}px)`
 
 }
 

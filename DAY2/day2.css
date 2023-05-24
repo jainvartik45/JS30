@@ -1,8 +1,161 @@
-#output{
-    
-    width: fit-content;
-    /* background-color: aquamarine; */
-}
-
-
-
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .input {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #ccc;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #output {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  #img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  input[type="range"]:focus {
+    outline: none;
+    background-color: #bbb;
+  }
+  
+  input[type="range"]:hover {
+    cursor: pointer;
+  }
+  
+  input[type="range"]:checked {
+    background-color: #aaa;
+  }
+  
+  input[type="range"]:focus + label {
+    color: #fff;
+  }
+  
+  input[type="range"]:checked + label {
+    color: #fff;
+  }
+  
+  .input input[type="range"] {
+    height: 40px;
+  }
+  
+  .input input[type="range"]:focus {
+    background-color: #ddd;
+  }
+  
+  .input input[type="range"]:hover {
+    background-color: #bbb;
+  }
+  
+  .input input[type="range"]:checked {
+    background-color: #aaa;
+  }
+  
+  .input input[type="range"]:focus + label {
+    font-size: 18px;
+  }
+  
+  .input input[type="range"]:checked + label {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .input {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #ccc;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #output {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  #img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  input[type="range"]:focus {
+    outline: none;
+    background-color: #bbb;
+  }
+  
+  input[type="range"]:hover {
+    cursor: pointer;
+  }
+  
+  input[type="range"]:checked {
+    background-color: #aaa;
+  }
